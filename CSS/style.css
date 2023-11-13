@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #3c3c3c;
+}
+
+body {
+  background-color: #3c3c3c;
+}
+
+.header {
+  /* width: 60%; */
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #8e188e;
+  padding: 20px;
+}
+
+.header .search-div {
+  width: 50%;
+  border: #9c9292 solid 2px;
+  /* background-color: #9c9292; */
+  /* text-align: center; */
+  border-radius: 5px;
+  padding: 8px;
+  padding-left: 20px;
+}
+
+.header .search-div svg {
+  font-size: 12px;
+  color: #9c9292;
+}
+
+.header .search-div input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #3c3c3c;
+  color: #9c9292;
+  font-size: 13px;
+}
+
+.header .search-div input::placeholder {
+  color: #9c9292;
+}
+
+.add-div {
+  border: #9c9292 solid 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.add-new {
+  color: #9c9292;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.addNewContent {
+  display: none;
+  width: 30%;
+  background-color: #8e188e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 48px;
+  border: 1px solid #9c9292;
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.addNewContent>svg {
+  font-size: 90px;
+  background-color: transparent;
+}
+
+.addNewContent form {
+  background-color: #8e188e;
+}
+
+.addNewContent input {
+  width: 98%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: #9c9292 solid 2px;
+  outline: none;
+  font-size: 18px;
+  color: #9c9292;
+}
+
+.btns {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+}
+
+.addNewContent .btn {
+  background-color: #3c3c3c;
+  color: #9c9292;
+  padding: 10px 20px;
+  border: 1px solid #9c9292;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.close {
+  background-color: #3c3c3c;
+  color: #9c9292;
+  padding: 10px 20px;
+  border: 1px solid #9c9292;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table-section {
+  margin-top: 40px;
+}
+
+.table-section table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+th,
+td {
+  border: 2px solid #8e188e;
+  padding: 10px 20px;
+  color: #3c3c3c !important;
+}
+
+.green {
+  color: rgb(16, 214, 99) !important;
+  cursor: pointer;
+}
+
+.red {
+  color: rgb(255, 0, 0) !important;
+  cursor: pointer;
+}

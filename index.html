@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="./CSS/all.min.css"> -->
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="search-div">
+      <form>
+        <label for="search">
+          <i class="fa fa-search"></i>
+        </label>
+        <input type="search" id="search" name="search" placeholder="Search Contact">
+      </form>
+    </div>
+
+    <div class="add-div">
+      <button class="add-new">
+        <i class="fas fa-user-plus"></i>
+        Add New Contact
+
+      </button>
+    </div>
+  </div>
+
+  <div class="form">
+    <div class="addNewContent">
+      <i class="fa fa-user-plus"></i>
+      <form action="">
+        <input type="text" placeholder="Full Name" id="Contact-form-name">
+        <input type="number" placeholder="Phone" id="Contact-form-phone">
+        <input type="email" placeholder="Email Address" id="Contact-form-email">
+        <input type="text" placeholder="Home Address" id="Contact-form-address">
+      </form>
+      <div class="btns">
+        <button class="save btn">
+          <i class="fas fa-save"></i> Save
+        </button>
+        <div class="close">
+          <i class="far fa-window-close"></i> Close
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-section">
+    <table class="table">
+      <thead class="table-light">
+        <tr>
+          <th>#ID</th>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+  </div>
+</body>
+
+
+
+
+<script src="./JS/bootstrap.min.js"></script>
+<script src="./JS/all.min.js"></script>
+<script src="./JS/main.js"></script>
+
+</html>
