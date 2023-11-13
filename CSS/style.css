@@ -9,7 +9,6 @@ body {
 }
 
 .header {
-  /* width: 60%; */
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -20,8 +19,6 @@ body {
 .header .search-div {
   width: 50%;
   border: #9c9292 solid 2px;
-  /* background-color: #9c9292; */
-  /* text-align: center; */
   border-radius: 5px;
   padding: 8px;
   padding-left: 20px;
@@ -33,7 +30,7 @@ body {
 }
 
 .header .search-div input {
-  width: 100%;
+  width: 97%;
   border: none;
   outline: none;
   background-color: #3c3c3c;
